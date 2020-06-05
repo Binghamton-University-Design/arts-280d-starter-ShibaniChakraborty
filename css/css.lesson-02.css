@@ -11,3 +11,10 @@ body {
 	max-width: 960px;
 	padding: 0 2em;
 }
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 2em 0;
+}
