@@ -1,73 +1,26 @@
-<!DOCTYPE html>
-
-<html>
-
-  <head>
-     <title>css lesson</title>
-     <meta name="keywords" content="lesson, HTML, Binghamton University">
-     <meta name="description" content= "This is a bsaic intro to HTML coding">
-     <link rel="stylesheet" type="text/css" href="css/css-lesson-01.css">
-
-     <style type="text/css">
-
-      p {
-        color: orange;
-      }
-
-   </style>
-
-  </head>
-
-  <body>
-
-    <h1 id="main-headline">Intro to HTML lesson</h1>
-    <h1 class="main-headline">Another Headline</h1>
-    <h2>My very nice subtitle</h2>
-    <h3 style="font-size: 64px;">another headline</h3>
-    <h4>even smaller headline</h4>
-
-    <!-- This is a comment -->
-    <div>
-    <p style="color:pink;">
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry, <em>New York Times</em>. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an <strong>unknown printer</strong> took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-    </p>
-
-    <p>
-      <a href="https://www.bing.com/images/search?view=detailV2&ccid=WNBZwcch&id=2E57FE1C88679E3CEBCCB68FE5E08411537BC991&thid=OIP.WNBZwcchPo1R3snt-P-COwHaFF&mediaurl=http%3a%2f%2fthumbs.dreamstime.com%2fz%2fthree-labrador-puppies-7-weeks-old-19572549.jpg&exph=894&expw=1300&q=royalty+free+images+puppies&simid=608000367660042828&selectedIndex=4&ajaxhist=0" target=blank><img src="images/puppies.jpg" title="My doggies" alt="here are my pups" width="500" /></a>
-    </p>
-
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry, <em>New York Times</em>. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an <strong>unknown printer</strong> took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-    </p>
-    <blockquote>
-      <p>
-        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-      </p>
-    </blockquote>
-
-    <!-- Another comment -->
-
-    <p>
-      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). <a target="blank" title="link to Google" href="https://google.com">Google</a>
-    </p>
-
-    <p>The Catcher in the Rye<br>
-      Ulysses<br>
-      The Plague
-    </p>
-
-  <ul>
-    <li>Apples</li>
-    <li>Oranges</li>
-    <li>Pears</li>
-    <li>Blueberries</li>
-  </ul>
-
-  <ol>
-    <li>New York</li>
-    <li>New Jersey</li>
-    <li>Connecticut</li>
-  </body>
 
 
-</html>
+body {
+  background-color: #e6e6e6;
+  color: #333333;
+}
+
+h1#main-headline {
+  font-size: 48px;
+  color: green;
+  font-weight: 800;
+}
+
+h1.main-headline {
+  font-size: 48px;
+  color: red;
+  font-weight: 800;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+ p {
+     color: purple !important;
+   }
