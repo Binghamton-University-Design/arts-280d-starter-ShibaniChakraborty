@@ -1,6 +1,5 @@
 /*stylesheet*/
 
-
 body {
   background-color: #202030;
   color: #000;
@@ -19,7 +18,7 @@ body {
 
 .article {
   position: relative;
-  width: 900px;
+  width: 100%;
   overflow: hidden;
 	background-color: #fff;
 	padding: 60px 0 20px 0;
@@ -43,3 +42,37 @@ border: solid black 3px;
 padding: 10px;
 margin: 20px;
 }
+
+
+.half, .second-half{
+  /* width: 50%; */
+  width: calc(50% - 40px);
+  padding: 20px;
+}
+
+.half {
+  float: left;
+}
+
+.second-half {
+  float: right;
+}
+
+.em-size-box {
+  width: 2em;
+  height: 2em;
+  background-color: orange !important;
+}
+
+
+.new-font-size {
+  font-size: 64px;
+}
+
+.em-size-box {
+  width: 2rem;
+  height: 2rem;
+  background-color: red !important;
+}
+
+
