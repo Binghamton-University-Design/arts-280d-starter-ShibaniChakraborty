@@ -18,6 +18,9 @@ body {
 }
 
 .article {
+  position: relative;
+  width: 900px;
+  overflow: hidden;
 	background-color: #fff;
 	padding: 60px 0 20px 0;
 }
@@ -27,18 +30,16 @@ background-color: rgba(0,0,0,0.1);
 }
 
 .box {
-box-sizing: content-box; /* border-box */
-width: 300px;
+float: right;
+width: 230px;
 border: solid black 3px;
 padding: 10px;
 margin: 20px;
 }
 
-.alt-box {
-box-sizing: content-box; /* border-box */
-width: 300px;
-border: solid red 3px;
+.masthead {
+width: 860px;
+border: solid black 3px;
 padding: 10px;
 margin: 20px;
 }
-
