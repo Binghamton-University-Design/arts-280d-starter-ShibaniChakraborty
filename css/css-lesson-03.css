@@ -22,15 +22,15 @@ body {
 	padding: 60px 0 20px 0;
 }
 
-img {
-	display: block;
-	width: 100%;
-	height: auto;
-	margin: 60px 0;
+.article div { 
+background-color: rgba(0,0,0,0.1);
 }
 
-h1, p {
-	margin-left: 20px;
-	margin-right: 20px; 
+.box {
+box-sizing: content-box; /* border-box */
+width: 300px;
+border: solid black 3px;
+padding: 10px;
+margin: 20px;
 }
 
