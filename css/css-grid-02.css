@@ -16,7 +16,7 @@ body {
   grid-gap: 2rem;
   /*grid-auto-flow: dense;*/
   /*grid-template-columns: 1fr 1fr 1fr;*/
-  grid-template-columns: repeat(!3, 1fr);
+  grid-template-columns: repeat(!1, 1fr);
 }
 
 .grid div {
@@ -42,6 +42,7 @@ div {
 }
 
 .tall {
+  grid-row: 1 / 4
   grid-column: 1 / 3;
 }
 
