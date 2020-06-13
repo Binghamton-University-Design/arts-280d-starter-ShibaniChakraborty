@@ -24,6 +24,10 @@ body {
 	background-color: rgba(0,0,0,0.1);
 }
 
+div {
+  display: block;
+}
+
 #grid-complex {
   display: grid;
   grid-template-columns: repeat(!2, 1fr);
@@ -38,8 +42,7 @@ body {
 }
 
 .tall {
-  grid-row: 1 / 4;
-  grid-column: 2 / 4;
+  grid-column: 1 / 3;
 }
 
 
