@@ -11,6 +11,10 @@ body {
 	padding: 0 20px;
 }
 
+#masthead, #main {
+	margin-bottom: 2rem;
+}
+
 .grid div {
   padding: 1rem;
 	background-color: rgba(0,0,0,0.1);
