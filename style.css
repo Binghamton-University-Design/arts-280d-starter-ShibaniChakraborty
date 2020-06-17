@@ -6,6 +6,8 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
+/*GENERAL*/
+
 h1, h2, h3, h4 {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -32,6 +34,8 @@ h4 {
   max-width: 1220px;
   padding: 0 2rem;
 }
+
+/*MASTHEAD*/
 
 #masthead, #main {
   margin-bottom: 2rem;
@@ -61,6 +65,8 @@ h4 {
   height: 1.6rem;
   width: auto;
 }
+
+/*NAV*/
 
 #nav a { 
 color: #000; 
@@ -176,6 +182,10 @@ transition: text-decoration-color .4s cubic-bezier(.694, .0482, .335, 1);
     transform: rotate(-90deg);
     transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
 
+/*HOME*/
+
+
+/*RESPONSIVE*/
 
 @media all and (max-width: 699px) { 
   #nav-button {
