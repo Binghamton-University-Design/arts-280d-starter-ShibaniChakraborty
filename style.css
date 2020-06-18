@@ -264,6 +264,11 @@ transition: text-decoration-color .4s cubic-bezier(.694, .0482, .335, 1);
     #intro-holder h1 {
     font-size: 3.2rem
   }
+
+  .work-item .inner .work-inside {
+    opacity: 1;
+  }
+
 }
 
 @media all and (min-width: 700px) {
