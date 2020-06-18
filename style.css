@@ -239,6 +239,13 @@ transition: text-decoration-color .4s cubic-bezier(.694, .0482, .335, 1);
   height: 100%;
 }
 
+/*FOOTER*/
+
+#footer {
+  text-align: right;
+  font-size: .85rem;
+}
+
 /*RESPONSIVE*/
 
 /* for variable type sizing */
