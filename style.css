@@ -201,6 +201,12 @@ transition: text-decoration-color .4s cubic-bezier(.694, .0482, .335, 1);
   margin-bottom: 2rem;
 }
 
+#work h3 a, #writing h3 a, #portfolio h3 a {
+  color: var(--body-color);
+  text-decoration: none;
+
+}
+
 .work-item {
   overflow: hidden;
   height: 0;
