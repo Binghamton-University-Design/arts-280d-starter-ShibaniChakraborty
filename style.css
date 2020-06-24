@@ -256,6 +256,17 @@ transition: text-decoration-color .4s cubic-bezier(.694, .0482, .335, 1);
   margin-bottom: .25em;
 }
 
+.writing-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.writing-item .caption {
+  font-size: .75rem;
+  color: #666666;
+}
+
 .writing-item .date {
   margin: 0;
   font-size: .85rem;
@@ -281,9 +292,10 @@ transition: text-decoration-color .4s cubic-bezier(.694, .0482, .335, 1);
   text-decoration-color: var(--body-color); 
 }
 
-/*Portfolio*/
+/*Portfolio and Writings*/
   #portfolio, #writings {
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   #portfolio .work-item {
