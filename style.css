@@ -37,7 +37,7 @@ h4 {
 
 #wrapper {
   margin: 2rem auto;
-  max-width: 1220px;
+  max-width: 1200px;
   padding: 0 2rem;
 }
 
@@ -85,7 +85,7 @@ text-align: center;
 transition: text-decoration-color .4s cubic-bezier(.694, .0482, .335, 1);
 }
 
-#nav a:hover { 
+#nav a:hover, #nav a.active { 
   text-decoration-color: var(--body-color); 
 }
 
@@ -196,12 +196,12 @@ transition: text-decoration-color .4s cubic-bezier(.694, .0482, .335, 1);
   height: 70vh;
 }
 
-#work h3, #writing h3, #portfolio h3 {
+#work h3, #writings h3, #portfolio h3 {
   letter-spacing: 1px;
   margin-bottom: 2rem;
 }
 
-#work h3 a, #writing h3 a, #portfolio h3 a {
+#work h3 a, #writings h3 a, #portfolio h3 a {
   color: var(--body-color);
   text-decoration: none;
 
@@ -282,7 +282,7 @@ transition: text-decoration-color .4s cubic-bezier(.694, .0482, .335, 1);
 }
 
 /*Portfolio*/
-  #portfolio {
+  #portfolio, #writings {
     margin-top: 2rem;
   }
 
